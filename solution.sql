@@ -7,6 +7,7 @@ create table Student (
     Gender VARCHAR(10) NOT NULL,
     DepartmentID INT(5) NOT NULL
 );
+describe Student;
 alter table student
 add (
   Email varchar(30),
